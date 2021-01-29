@@ -1,7 +1,253 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sodara Y Portfolio</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/site.css" rel="stylesheet"/>
+
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+
+    
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a class="" href="#home">Home</a></li>
+                    <li><a class="" href="#about">About</a></li>
+                    <li><a class="" href="#project">Projects</a></li>
+                    <li><a class="" href="#skill">Skills</a></li>
+                    <li><a class="" href="#education">Edcuation</a></li>
+
+                </ul>
+                
+            </div>
+
+        
+    </div>
+
+    <div class="container-fluid body-content" style="margin:0; padding:0;">
+        
+
+
+
+
+<section id="home">
+    <div class="center">
+        <h1 class="fade-in" id="headline-name">Hi, I'm Sodara</h1>
+        <div class="container">
+            <h2 class="slide-in from-down">I'm a Full-Stack Software Engineer</h2>
+            <button class="button" onclick="GetClientReport()">Resume</button>
+
+        </div>
+    </div>
+
+</section>
+<hr />
+<section id="about">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"><img src="/Img/Profile.PNG" alt="Profile Picture" class="profile-img slide-in from-left" /></div>
+            <div class="col-sm-8">
+                <h1 id="about-me" class="slide-in from-down">About Me</h1>
+                <div>
+                    <p class="slide-in from-right">
+                        <strong>Hello I'm Sodara Y.</strong> I'm a 2020 computer science graduate from Western Oregon University(WOU).
+                        Through my academic journey, I applied a strong focus on building my front-end/user interface and back-end services abilities. I am detail-oriented and meticulous when managing competing priorities within tight deadlines. I have excellent skills in building back-end services that connect data to the database.
+                        My academic strengths have greatly contributed to the development of my innovation, collaboration and critical thinking skills. I bring clear and effective communicating to build professional connections with team members, and management.
+                    </p>
+                    <br />
+                    <h1 id="contact-me" class="slide-in from-down">Contact Me</h1>
+                    <br />
+                    <p class="slide-in from-right" id="contact-info">
+                        Sodara Y<br />(971) 341-0326<br /> ysodara@yahoo.com<br /> <a href="https://www.linkedin.com/in/sodara-y-028674139/">Linkedin</a><br /> <a href="https://github.com/ysodara" >Github</a>
+                    </p>
+
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+
+<section id="project">
+    <div class="container">
+        <h1 class="fade-in">Projects</h1>
+        <ul class="nav nav-tabs slide-in from-down">
+            <li class="active"><a data-toggle="tab" href="#web">Web Apps</a></li>
+            
+        </ul>
+        <div class="tab-content">
+            <div id="web" class="tab-pane active">
+                <div class="row">
+                    <div class="col-md-6 slide-in from-left">
+                        <div class="project" style="background-image: url(/Img/peakp.png);">
+                            <div class="desc">
+                                <div class="con">
+                                    <h3><a href="#projects">Peak Performance</a></h3>
+                                    <span>
+                                        ASP.NET MVC, Semantic UI, Git, Azure, SQL Server, C#, JavaScript, AJAX, JSON, jQuery, HTML, CSS, FitBit API
+                                        <br><br>
+                                        Designed and developed web application to improve athlete
+                                        workout plan by storing workout plans on the cloud through a
+                                        responsive interface and providing athletes with FitBit watch
+                                        integration for calories burned tracking.
+                                        <br><br>
+                                        As an Agile team, followed Agile Software Development including
+                                        inception phase, sprint planning, backlog refinement, sprint and reviews.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#project" class="btn btn-default">Show Demo</a>
+                    </div>
+
+                    <div class="col-md-6 slide-in from-right">
+                        <div class="project" style="background-image: url(/Img/github-portfolio.PNG);">
+                            <div class="desc">
+                                <div class="con">
+                                    <h3><a href="/Home/About">GitHub Portfolio</a></h3>
+                                    <span>
+                                        Focus: GitHub Api
+                                        <br><br>
+                                        ASP.NET MVC,  Git, Azure, C#, JavaScript, AJAX, JSON, jQuery, HTML, CSS
+                                        <br><br>
+                                        Used GitHub API to display user information in a portfolio format-repos, commits, and user profile data. Simple one-page design uses JavaScript to change the DOM.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="/Home/About" class="btn btn-default">Show Demo</a>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<section id="skill">
+    <div class="container">
+        <h1 class="fade-in">Skills</h1>
+        <br />
+        <p class="fade-in">
+            <div class="row fade-in">
+                <div class="col-sm-2"><img src="/Img/C_Sharp_logo.svg" alt="C#" style="width:40px;height:40px;" /> C Sharp </div>
+                <div class="col-sm-2"><img src="/Img/java.jpg" alt="JAVA" style="width:40px;height:40px;" /> Java </div>
+                <div class="col-sm-2"><img src="/Img/Python.png" alt="PYTHON" style="width:40px;height:40px;" /> Python </div>
+                <div class="col-sm-2"><img src="/Img/c--logo-icon-17.png" alt="C++" style="width:40px;height:40px;" /> C++ </div>
+                <div class="col-sm-2"><img src="/Img/kotlin.png" alt="Kotlin" style="width:40px;height:40px;" /> Kotlin </div>
+            </div>
+            <br />
+            <div class="row fade-in">
+                <div class="col-sm-2"><img src="/Img/html.png" alt="HTML" style="width:40px;height:40px;" /> HTML</div>
+                <div class="col-sm-2"><img src="/Img/javascript.png" alt="JS" style="width:40px;height:40px;" /> JavaScript</div>
+                <div class="col-sm-2"><img src="/Img/css.png" alt="CSS" style="width:40px;height:40px;" /> CSS</div>
+                <div class="col-sm-2"><img src="/Img/sql.png" alt="SQL" style="width:40px;height:40px;" /> SQL</div>
+                <div class="col-sm-2"><img src="/Img/c-programming-icon.png" alt="C" style="width:40px;height:40px;" /> C </div>
+            </div>
+        </p>
+        <br />
+        <h1 class="slide-in from-down">Tools & Technologies</h1>
+        <ul class="SG slide-in from-down">
+            <li class="sgLi">
+                <ul>
+                    <li><img src="/Img/dotnet-mvc-icon.png " alt="MVC" />ASP.NET MVC 5</li>
+                    <li><img src="/Img/azure.png" alt="Microsoft Azure" />Microsoft Azure</li>
+                    <li><img src="/Img/SSMS.png " alt="SQL Server Management Studio" />SQL Server Management Studio</li>
+                    <li><img src="/Img/mstile-310x310.png " alt="Visual Studio Community" />Visual Studio Community</li>
+                    <li><img src="/Img/Git_icon.svg.png " alt="Git" />Git</li>
+                    <li><img src="/Img/github.png " alt="Github" />Github</li>
+                </ul>
+
+            </li>
+            <li class="sgLi">
+                <ul>
+                    <li><img src="/Img/bootstrap.png " alt="Bootstrap" />Bootstrap</li>
+                    <li><img src="/Img/jquery.png " alt="jQuery" />jQuery</li>
+                    <li><img src="/Img/ajax.png " alt="AJAX" />AJAX</li>
+                    <li><img src="/Img/android-studio.jpg " alt="Android Studio" />Android Studio</li>
+                    <li><img src="/Img/google_firebase.png " alt="Google Firebase" />Google Firebase</li>
+                    <li><img src="/Img/json.png " alt="JSON" />JSON</li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+</section>
+
+<hr />
+
+<section id="education" class="fade-in">
+    <div class="container">
+        <h1 class="fade-in">Education</h1>
+        <br />
+        <div class="slide-in from-right">
+            <h1 id="degree">
+                Bachelor Of Science: Computer Science
+            </h1>
+            <ul id="school-info">
+                <li>Western Oregon University</li>
+                <li>Monmouth, Oregon</li>
+                <li>June 2020</li>
+            </ul>
+        </div>
+        <br />
+        <div class="slide-in from-left">
+            <h1 id="degree">
+                Associate of Arts: General Studies
+            </h1>
+            <ul id="school-info">
+                <li>Pierce College</li>
+                <li>Lakewood, Washington</li>
+                <li>June 2018</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
+        <hr />
+        <footer>
+            <p>&copy; 2021 - Sodara Y Portfolio</p>
+        </footer>
+    </div>
+    
+    <script src="/Scripts/jquery-3.4.1.js"></script>
+
+    <script src="/Scripts/bootstrap.js"></script>
+
+    <script src="/Scripts/main.js"></script>
+    
 </body>
 </html>
