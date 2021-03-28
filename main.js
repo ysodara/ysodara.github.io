@@ -26,8 +26,8 @@ sliders.forEach(slider => {
     appearOnScroll.observe(slider);
 });
 
-function GetClientReport() {
-    window.open('/Home/GetReport');  
+function GetFile() {
+    window.open('/Resume.pdf');  
 }; 
 
 /*Start Ajax for Github api*/
