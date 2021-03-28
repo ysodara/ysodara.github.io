@@ -27,7 +27,7 @@ sliders.forEach(slider => {
 });
 
 function GetClientReport() {
-    window.open('/Home/GetReport');  
+    window.open('/Resume.pdf');  
 }; 
 
 /*Start Ajax for Github api*/
