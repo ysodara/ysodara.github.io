@@ -26,7 +26,7 @@ sliders.forEach(slider => {
     appearOnScroll.observe(slider);
 });
 
-function GetClientReport() {
+function GetFile() {
     window.open('/Resume.pdf');  
 }; 
 
